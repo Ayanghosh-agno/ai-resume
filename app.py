@@ -1,6 +1,6 @@
+import smtplib
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
-import smtplib
 from pyresparser import ResumeParser
 
 # creates SMTP session
